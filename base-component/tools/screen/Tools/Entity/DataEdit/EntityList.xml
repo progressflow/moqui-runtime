@@ -86,7 +86,7 @@ along with this software (see the LICENSE.md file). If not, see
             <field-layout><field-row-big><field-ref name="filterRegexp"/><field-ref name="viewOption"/>
                 <field-ref name="submitButton"/></field-row-big></field-layout>
         </form-single>
-        <form-list name="EntityList" list="entityList">
+        <form-list name="EntityList" list="entityList" show-page-size="true">
             <field name="package">
                 <header-field show-order-by="true"/>
                 <default-field><display also-hidden="false"/></default-field>
